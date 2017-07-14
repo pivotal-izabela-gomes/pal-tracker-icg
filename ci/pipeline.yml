@@ -28,4 +28,5 @@ jobs:
     params:
       manifest: pal-tracker/manifest.yml
       path: build-output/pal-tracker.jar
-      WELCOME_MESSAGE: "Hello from Concourse"
+      environment_variables:
+        WELCOME_MESSAGE: "Hello from Concourse"
