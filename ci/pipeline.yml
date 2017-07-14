@@ -26,4 +26,6 @@ jobs:
     file: pal-tracker/ci/tasks/build.yml
   - put: deploy
     params:
+      manifest: pal-tracker/manifest.yml
+      path: build-output/pal-tracker.jar
       WELCOME_MESSAGE: "Hello from Concourse"
