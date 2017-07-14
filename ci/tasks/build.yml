@@ -20,4 +20,4 @@ run:
   - |
     cd pal-tracker
     ./gradlew build
-    cp build/libs/pal-tracker-icg.jar ../build-output
+    cp build/libs/pal-tracker*.jar ../build-output
